@@ -13,6 +13,7 @@ pxp-token = { path = "../pxp-token" }
 pxp-parser = { path = "../pxp-parser" }
 pxp-indexer = { path = "../pxp-indexer" }
 pxp-docblock = { path = "../pxp-docblock" }
+pxp-printer = { path = "../pxp-printer" }
 discoverer = "0.2.0"
 rustyline = "13.0.0"
 
@@ -31,3 +32,7 @@ path = "bin/index.rs"
 [[bin]]
 name = "parse-doc"
 path = "bin/parse-doc.rs"
+
+[[bin]]
+name = "pretty-print"
+path = "bin/pretty-print.rs"

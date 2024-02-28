@@ -15,3 +15,6 @@ index +args:
 
 @konsole example *args:
     RUSTFLAGS=-Awarnings cargo run -q --package konsole --example {{example}} --release -- {{args}}
+
+pretty-print +args:
+    RUSTFLAGS=-Awarnings cargo run -q --package pxp-tools --bin pretty-print --release -- {{args}}
